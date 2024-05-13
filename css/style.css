@@ -1,18 +1,23 @@
 .header {
   border-bottom: 1px solid #e7e9fc;
-}
-.head-div {
   display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
+}
+
+img {
+  display: block;
 }
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
-
+.nav-list {
+  display: flex;
+  align-items: center;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -52,11 +57,13 @@ header {
   display: flex;
   gap: 40px;
   margin-right: 0;
+  padding: 24px 0;
 }
 
 .inline {
   background-color: #ffffff;
   padding: 24px 0;
+  width: calc((100%-72px) / 4);
 }
 .address {
   font-style: normal;
@@ -69,6 +76,7 @@ header {
   letter-spacing: 0.02em;
 }
 .visually-hidden {
+  position: absolute;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -153,6 +161,7 @@ p {
 .horizontal {
   display: flex;
   list-style-type: none;
+  margin-bottom: 8px;
 }
 .our-team {
   font-size: 36px;
@@ -164,6 +173,7 @@ p {
 .team {
   background-color: #f4f4fd;
   color: 2e2f42;
+  padding: 120px 0 120px;
 }
 .job-position {
   font-size: 16px;
