@@ -19,6 +19,9 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+.headercontainer {
+  display: flex;
+}
 header {
   font-family: "Raleway", sans-serif;
   color: #2e2f42;
@@ -53,10 +56,12 @@ header {
   display: flex;
   gap: 40px;
   margin-right: 0;
+  padding: 24px 0;
 }
 
 .inline {
   background-color: #ffffff;
+  gap: 40px;
   padding: 24px 0;
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
