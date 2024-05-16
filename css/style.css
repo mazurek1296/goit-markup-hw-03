@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -56,11 +61,11 @@ header {
   display: flex;
   gap: 40px;
   margin-right: 0;
-  padding: 24px 0;
 }
 
 .inline {
   background-color: #ffffff;
+  display: inline;
   gap: 40px;
   padding: 24px 0;
   flex-basis: calc((100% - 72px) / 4);
