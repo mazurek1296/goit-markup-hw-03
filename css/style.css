@@ -41,6 +41,13 @@ header {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.linktop {
+  padding: 24px 0;
+}
+.addresslink {
+  display: flex;
+  gap: 40px;
+}
 .navi {
   color: #2e2f42;
   font-weight: 500;
@@ -165,6 +172,7 @@ p {
 .titles {
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .title-text {
   line-height: 1.5;
@@ -206,7 +214,7 @@ p {
   margin-bottom: 8px;
 }
 .personel-div {
-  padding: 32px 16px;
+  padding: 32px 16px 32px;
 }
 .team {
   background-color: #f4f4fd;
@@ -233,7 +241,7 @@ p {
 }
 
 .type {
-  line-height: 1.5;
+  /* line-height: 1.5; */
   margin-bottom: 8px;
 }
 .studio {
