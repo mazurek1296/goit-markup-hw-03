@@ -212,7 +212,7 @@ p {
   margin-bottom: 8px;
 }
 .personel-div {
-  padding: 32px 16px 32px;
+  padding: 32px 0;
 }
 .team {
   background-color: #f4f4fd;
@@ -226,22 +226,19 @@ p {
   color: #434455;
 }
 
-.container .teamdiv {
-  padding: 32px 16px;
-}
 .titles {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
 .title-text {
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .horizontal {
   display: flex;
   list-style-type: none;
-  margin-bottom: 8px;
   gap: 24px;
 }
 
@@ -254,7 +251,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  margin-bottom: 8px;
   gap: 24px;
   column-gap: 24px;
   row-gap: 48px;
@@ -290,6 +286,7 @@ p {
   font-size: 18px;
 }
 .footerlogo {
+  text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
