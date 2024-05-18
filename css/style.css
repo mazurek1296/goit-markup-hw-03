@@ -226,7 +226,7 @@ p {
   color: #434455;
 }
 
-.teamdiv {
+.container .teamdiv {
   padding: 32px 16px;
 }
 .titles {
