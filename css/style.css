@@ -50,6 +50,7 @@ header {
 .addresslink {
   display: flex;
   gap: 40px;
+  list-style-type: none;
 }
 .navi {
   color: #2e2f42;
@@ -71,6 +72,7 @@ header {
   display: flex;
   gap: 40px;
   margin-right: 0;
+  list-style-type: none;
 }
 
 .linktop {
