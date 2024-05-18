@@ -26,6 +26,9 @@ body {
 }
 .headercontainer {
   display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 24px 0;
 }
 header {
   font-family: "Raleway", sans-serif;
@@ -81,15 +84,11 @@ header {
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
-.address {
+
+.addresslist {
   font-style: normal;
   letter-spacing: 0.02em;
   margin-top: 24px;
-}
-.addresslink {
-  margin-right: 40px;
-}
-.addresslist {
   display: flex;
   gap: 40;
 }
