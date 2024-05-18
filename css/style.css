@@ -23,92 +23,79 @@ body {
 
 /* HEADER */
 
-header {
-  font-family: "Raleway", sans-serif;
-  color: #2e2f42;
-  font-size: 16px;
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.headercontainer {
-  border-bottom: 1px solid #e7e9fc;
-  display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 24px 0;
-}
-
-.nav-list {
+.header-bar {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  border-bottom: 1px solid #e7e9fc;
 }
-
-.studio {
-  color: #2e2f42;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
+header {
+  background-color: #ffffff;
 }
-
 .logo {
-  margin-right: 76px;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  padding: 24px 0;
+  display: inline-block;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
+}
+.webcolor {
   color: #4d5ae5;
 }
-
-.linktop {
-  padding: 24px 0 24p;
+.studiocolor {
+  color: #2e2f42;
 }
-.addresslink {
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navi {
+  display: flex;
+  align-items: center;
+}
+.navi-list {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+}
+.navi-list-item {
+  font-weight: 500;
+}
+.navi-link {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 24px 0;
+  display: inline-block;
+  color: #2e2f42;
+}
+
+.contacts {
+  font-style: normal;
+  color: #434455;
+  font-size: 400;
+}
+.contacts-list {
   display: flex;
   gap: 40px;
   list-style-type: none;
 }
-
-.linktop {
-  padding: 24px 0;
-}
-
-.navi {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.navi:hover {
-  color: #404bbf;
-}
-.navi:active {
-  color: #404bbf;
-}
-.navi:focus {
-  color: #404bbf;
-}
-
-.addresslist {
-  font-style: normal;
-  letter-spacing: 0.02em;
-  display: flex;
-  gap: 40;
-}
-
-.link {
+.contact-link {
   color: #434455;
-  line-height: 24px;
-  font-size: 16px;
+  text-decoration: none;
+  padding: 24px 0;
+  display: inline-block;
+  color: #2e2f42;
 }
-.link:focus {
-  color: #404bbf;
-}
-.link:hover {
-  color: #404bbf;
-}
-.link:active {
+
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 
